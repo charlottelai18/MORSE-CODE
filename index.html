@@ -7,10 +7,18 @@
     </head>
     <body>
         <h1>Morse Code Translator</h1>
-        <textarea id="inputText" rows="4" cols="50" placeholder="Enter text to translate..."></textarea><br>
-        <button id="translateButton">Translate to Morse</button>
-        <h2>Translated Morse Code:</h2>
-        <textarea id="outputMorse" rows="4" cols="50" readonly></textarea>
+
+        <textarea id="input" rows="4" cols="40" placeholder="Type English or Morse here"></textarea>
+
+        <div>
+            <button id="toMorse">To Morse</button>
+            <button id="toEnglish">To English</button>
+        </div>
+
+        <h2>Output</h2>
+        <pre id="output"></pre>
+
+        <script type="module" src="main.js"></script>
     </body>
-    <script type="module" src="script.js"></script>
+
 </html>
